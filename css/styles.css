@@ -1,0 +1,240 @@
+/*  вторичный цвет текста #212121 */
+/* основной цвет текста #757575 */
+/* синий цвет акцент #2196F3 */
+/* белый цвет #FFFFFF */
+/* черный цвет для WebStudio #000000 */
+/* основной цвет фона #E5E5E5 */
+/* вторичный цвет фона #2F303A */
+/* filter button color #F5F4FA */
+:root {
+    --accent: #2196F3;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --main-bckgrnd-color:#E5E5E5;
+    --main-font: 'Roboto', sans-serif;
+}
+
+/* main styles */
+.link{
+    text-decoration: none
+}
+.current {
+    color: #2196F3;
+}
+body {
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+
+}
+/* main styles */
+/* Header style */
+.hdr {
+background-color:     #FFFFFF;
+}
+/* Logo style */
+.company-name {
+    color: #2196F3;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+text-decoration: none
+}
+.logo-second-color {
+    color: #000000;
+}
+.list {
+    list-style: none;
+}
+/* Navigation style */
+.navigation .link {
+    font-family: inherit;
+    color: #212121;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+.navigation .link:hover, 
+.navigation .link:focus {
+    color: #2196F3;
+}
+/* Contact list style */
+.contacts-link {
+    font-family: inherit;
+   color: #757575; 
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+   color: #2196F3; 
+}
+/* Hero style */
+.hero {
+background-color: #2F303A;
+}
+.hero-heading {
+    color: #FFFFFF;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.hero-btn {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.8;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #188CE8;;
+}
+/* Advantages style */
+.advantages {
+    background-color: #E5E5E5;
+}
+.advantages-heading {
+    color: #212121;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.advantages-text {
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #757575;
+
+}
+/* Occupation styles */
+.occupation {
+    background-color: #E5E5E5;
+}
+.occupation-heading {
+    color: #212121;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+}
+/* Members styles */
+.member {
+    background-color: #F5F4FA;
+}
+.member-heading {
+    color: #212121;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+.member-title {
+        color: #212121;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.member-position {
+font-size: 16px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.member-item {
+    background-color: #FFFFFF;
+}
+/* Footer styles */
+.ftr {
+    background-color: #2F303A;
+}
+.studio-color {
+    color: #FFFFFF;
+}
+.adrs {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+.link.adrs-link {
+font-family: inherit;
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.link.adrs-link:hover, 
+.link.adrs-link:focus {
+    color: #2196F3;
+}
+/* portfolio styles */
+
+/* Filter style */
+.visually-hidden.filter-heading {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.filter-btn {
+    color: #212121 ;  
+     font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+background-color: #F5F4FA;
+border-radius: 4px;
+cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.filter-examples-name {
+    color: #212121;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.filter-examples-type {
+font-size: 16px;
+line-height: 1.8;
+letter-spacing: 0.03em;
+}
