@@ -16,7 +16,8 @@
   </head>
   <body class="page" >
     <header class="hdr">
-      <nav class="navigation">
+     <div class="container hdr-container">
+        <nav class="navigation hdr-container">
         <a class="company-name" href="/">Web<span class="logo-second-color">Studio </span></a>
         <ul class="list nav-list">
           <li class="nav-item">
@@ -31,19 +32,23 @@
         </ul>
       </nav>
       <ul class="list contacts">
-        <li><a class="link contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link contacts-link" href="tel:380961111111">+38 096 111 11 11</a></li>
+        <li><a class="link contacts-link contacts-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link contacts-link contacts-phone" href="tel:380961111111">+38 096 111 11 11</a></li>
       </ul>
+     </div>
     </header>
     <main>
       <div class="hero">
         <section>
-          <h1 class="hero-heading"> Эффективные решения <br /> для вашего бизнеса</h1>
+        <div class="container">
+            <h1 class="hero-heading"> Эффективные решения <br /> для вашего бизнеса</h1>
           <button class="hero-btn" type="button">Заказать услугу</button>
+        </div>
         </section>
       </div>
-      <section class="advantages">
-        <ul class="list advantages-list">
+      <section class="advantages section">
+       <div class="container">
+          <ul class="list advantages-list">
           <li class="advantages-item">
             <h3 class="advantages-heading">Внимание к деталям</h3>
             <p class="advantages-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -65,13 +70,15 @@
             <p class="advantages-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
           </li>
         </ul>
+       </div>
         </section>
-        <section class="occupation">
-        <h2 class="occupation-heading">Чем мы занимаемся</h2>
+        <section class="occupation section">
+       <div class="container">
+          <h2 class="occupation-heading">Чем мы занимаемся</h2>
         <ul class="list occupation-list">
           <li class="occupation-item">
             <img
-            class="occupation-img"
+            class="occupation-img img"
               src="./images/what-we-do/what_we_do-1.jpeg"
               alt="верстка сайтов"
               width="370"
@@ -80,7 +87,7 @@
           </li>
           <li class="occupation-item">
             <img
-            class="occupation-img"
+            class="occupation-img img"
               src="./images/what-we-do/what_we_do-2.jpeg"
               alt="разработка мобильных приложений"
               width="370"
@@ -89,7 +96,7 @@
           </li>
           <li class="occupation-item">
             <img
-            class="occupation-img"
+            class="occupation-img img"
               src="./images/what-we-do/what_we_do-3.jpeg"
               alt="дизайн сайтов"
               width="370"
@@ -97,13 +104,15 @@
             />
           </li>
         </ul>
+       </div>
       </section>
-      <section class="member">
-        <h2 class="member-heading">Наша команда</h2>
+      <section class="member section">
+       <div class="container">
+          <h2 class="member-heading">Наша команда</h2>
         <ul class="list member-list">
           <li class="member-item">
             <img
-              class="member-img"
+              class="member-img img"
               src="./images/team/team_member-1.jpeg"
               alt="Игорь Демьяненко"
               width="270"
@@ -116,7 +125,7 @@
           </li>
           <li class="member-item">
             <img
-              class="member-img"
+              class="member-img img"
               src="./images/team/team_member-2.jpeg"
               alt="Ольга Репина"
               width="270"
@@ -129,7 +138,7 @@
           </li>
           <li class="member-item">
             <img
-              class="member-img"
+              class="member-img img"
               src="./images/team/team_member-3.jpeg"
               alt="Николай Тарасов"
               width="270"
@@ -142,7 +151,7 @@
           </li>
           <li class="member-item">
             <img
-             class="member-img"
+             class="member-img img"
               src="./images/team/team_member-4.jpeg"
               alt="Михаил Ермаков"
               width="270"
@@ -154,10 +163,12 @@
             </div>
           </li>
         </ul>
+       </div>
       </section>
     </main>
     <footer class="ftr">
-      <a class="company-name" href="/">Web<span class="studio-color">Studio </span> </a>
+     <div class="container">
+        <a class="company-name" href="/">Web<span class="studio-color">Studio </span> </a>
       <address class="address">
         <p class="adrs">
         г. Киев, пр-т Леси Украинки, 26 <br />
@@ -165,6 +176,7 @@
         <a class="link adrs-link" href="mailto:info@example.com">info@example.com</a> <br />
         <a class="link adrs-link" href="tel:380961111111">+38 096 111 11 11</a>
       </address>
+     </div>
     </footer>
   </body>
 </html>
