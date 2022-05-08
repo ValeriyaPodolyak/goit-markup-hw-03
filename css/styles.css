@@ -24,12 +24,35 @@
 body {
     color: #757575;
     font-family: 'Roboto', sans-serif;
+ 
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+.img {
+    display: block;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid red;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 
 }
-/* main styles */
 /* Header style */
 .hdr {
 background-color:     #FFFFFF;
+}
+
+.hdr-container {
+    display: flex;
+    align-items: center;
 }
 /* Logo style */
 .company-name {
@@ -39,13 +62,16 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
-text-decoration: none
+text-decoration: none;
+margin-right: 93px;
 }
 .logo-second-color {
     color: #000000;
 }
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 /* Navigation style */
 .navigation .link {
@@ -60,7 +86,26 @@ letter-spacing: 0.02em;
 .navigation .link:focus {
     color: #2196F3;
 }
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    margin-right: 50px;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.nav-item:last-child {
+    margin-right: 0;
+}
 /* Contact list style */
+.contacts {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    
+}
 .contacts-link {
     font-family: inherit;
    color: #757575; 
@@ -72,6 +117,9 @@ letter-spacing: 0.02em;
 .contacts-link:hover,
 .contacts-link:focus {
    color: #2196F3; 
+}
+.contacts-mail {
+    margin-right: 50px;
 }
 /* Hero style */
 .hero {
@@ -170,6 +218,8 @@ color: #757575;
 /* Footer styles */
 .ftr {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .studio-color {
     color: #FFFFFF;
